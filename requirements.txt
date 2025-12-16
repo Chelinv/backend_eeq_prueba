@@ -1,0 +1,16 @@
+annotated-doc
+annotated-types
+anyio
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+python-multipart
+idna
+pydantic
+pydantic_core
+starlette
+typing-inspection
+typing_extensions
+pymongo
+dnspython
