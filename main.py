@@ -83,7 +83,7 @@ def root_redirect():
     return RedirectResponse(url="/clientes/", status_code=status.HTTP_308_PERMANENT_REDIRECT)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://frontend-eeq-8.onrender.com"],
+    allow_origins=["https://frontend-prueba-a3nl.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
